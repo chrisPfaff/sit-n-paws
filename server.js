@@ -33,16 +33,6 @@ app.post('/login', (req, res) => {
     })
 });
 
-<<<<<<< HEAD
-//post for owner profile
-app.post('/ownerprofile', (req, res) => {
-
-})
-
-//post for host profile
-app.post('/hostprofile', (req, res) => {
-
-=======
 //post for signup information
 app.post('/signup', (req, res) => {
   var username = req.body.username;
@@ -81,19 +71,10 @@ app.post('/profile', (req, res) => {
         }).save();
       }
     })
->>>>>>> a45986c6ebbe273f4e146ea5431f099ad21088ce
 })
 
 //post for listings
 app.post('/listings', (req, res) => {
-<<<<<<< HEAD
-
-})
-
-//get for listings
-
-
-=======
   var newListing = new Listing {
     name: req.body.name,
     zipcode: req.body.zipcode,
@@ -136,7 +117,6 @@ app.get('/listings', (req, res) => {
       }
     })
 })
->>>>>>> a45986c6ebbe273f4e146ea5431f099ad21088ce
 
 app.listen(3000, () => {
   console.log('Listening on localhost:3000');
