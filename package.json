@@ -27,6 +27,7 @@
     "material-ui": "^0.19.2",
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.13",
+    "nodemon": "^1.12.1",
     "prop-types": "^15.6.0",
     "require": "^2.4.20"
   },
