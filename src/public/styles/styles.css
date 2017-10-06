@@ -27,3 +27,11 @@
   position: relative;
   bottom: 0;
 }
+
+.messageBox {
+  text-align: center;
+}
+
+.profileBox {
+  text-align: center;
+}

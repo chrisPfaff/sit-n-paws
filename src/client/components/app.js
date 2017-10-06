@@ -44,7 +44,7 @@ export default class App extends React.Component {
       return (
         <div>
           <MuiThemeProvider>
-            <Main />
+            <Main/>
           </MuiThemeProvider>
 
         </div>
